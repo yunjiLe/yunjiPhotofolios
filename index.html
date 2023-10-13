@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>포토폴리오</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="css/jquery.fullPage.css">
+    <link rel="stylesheet" href="css/examples.css">
+    <link rel="stylesheet" href="css/initial.css">
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+  <body>
+        <script type="text/javascript" src="js/jquery.fullPage.js"></script>
+        <script type="text/javascript" src="js/examples.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('#fullpage').fullpage({
+                  anchors: ['firstPage', 'secondPage', '3rdPage', '4rdPage', 'lastPage'],
+                  menu: '#menu',
+                  responsiveWidth: 1024,
+                });
+
+            });
+        </script>
+    <ul id="menu">
+        <li data-menuanchor="firstPage" class="active"><a href="#firstPage">ABOUT</a></li>
+        <li data-menuanchor="secondPage"><a href="#secondPage">WEB REDESIGN & CLONE CODING</a></li>
+        <li data-menuanchor="3rdPage"><a href="#3rdPage">DESIGN  PAGE</a></li>
+          <li data-menuanchor="4rdPage"><a href="#4rdPage">DESIGN CAR</a></li>
+            <li data-menuanchor="lastPage"><a href="#lastPage">WEBSITE DESIGN</a></li>
+    </ul>
+    <div id="fullpage">
+        <div class="section  active" id="section0">
+          <div class="section-text">
+            <img src="./img/me.png" alt="">
+            <ul class="text-warp">
+              <li>
+              <h2>PROFILE</h2>
+              <p> Name : 이윤지
+                <br>
+                Birth : 2000.06.08
+                <br>
+                Mail : dbswl4050@naver.com</p>
+            </li>
+            <li>
+              <h2>EPUCATION</h2>
+              <p>그린컴퓨터아트학원 : 2023.3.10 ~ 23.07.14
+                <br>
+                (혼합+디지털 디자인)UI/UX 반응형 웹디지인&웹퍼블리셔
+                <br>
+                (디자인&코딩)양성A 수료
+                <br>
+                 대구가톨릭대학교 한국어문학과(한국어교육과)졸업</p>
+            </li>
+            <li>
+              <h2 class="text3"> SKILLS</h2>
+             <div class="skills-bar">
+              <div class="bar">
+                <div class="info">
+                  <span>Photoshop</span>
+                </div>
+                <div class="progress-line Photoshop"><span></span></div>
+              </div>
+              <div class="bar">
+                <div class="info">
+                  <span>IIIustrator</span>
+                </div>
+                <div class="progress-line IIIustrator"><span></span></div>
+              </div>
+              <div class="bar">
+                <div class="info">
+                  <span>Figma</span>
+                </div>
+                <div class="progress-line Figma"><span></span></div>
+              </div>
+              <div class="bar">
+                <div class="info">
+                  <span>HTML&CSS</span>
+                </div>
+                <div class="progress-line HTML-CSS"><span></span></div>
+              </div>
+              <div class="bar">
+                <div class="info">
+                  <span>javascript</span>
+                </div>
+                <div class="progress-line javascript"><span></span></div>
+              </div>
+             </div>
+            </li>
+            <li>  <h3>성실하고 끈기가 있는 웹퍼블리셔 이윤지입니다.
+              <br>
+              제 포토폴리오 페이지에 오신걸 환영합니다 :D</h3></li>
+            </div>
+            </ul>
+        </div>
+        <div class="section" id="section1">
+          <div class="box-warp">
+            <div class="box-warp-con">
+              <div class="box1">
+                  <img src="./img/img1.png" alt="">
+              </div>
+              <div class="box2">
+                <h2>PARLS BAGUETTE</h2>
+                <p>반응형
+                  <br>
+                  참여율 100%
+                </p>
+                <span><a href="https://www.paris.co.kr/" target="_blank">view site</a><a href="https://yunjile.github.io/ParisBaguette/" target="_blank">Git Hub</a></span>
+              </div>
+            </div>
+            <div class="box-warp-con">
+              <div class="box1">
+                  <img src="./img/img2.png" alt="">
+              </div>
+              <div class="box2">
+                <h2>대구아쿠아리움</h2>
+                <p>반응형
+                  <br>
+                  참여율 100%
+                </p>
+                <span><a href="https://daeguaqua.com/" target="_blank">view site</a><a href="https://yunjile.github.io/DaeguAquarium/" target="_blank">Git Hub</a></span>
+              </div>
+            </div>
+            <div class="box-warp-con">
+              <div class="box1">
+                  <img src="./img/img3.png" alt="">
+              </div>
+              <div class="box2">
+                <h2>삼청각</h2>
+                <p>반응형
+                  <br>
+                  참여율 100%
+                </p>
+                <span><a href="https://yunjile.github.io/samcheongGak/" target="_blank">view site</a><a href="#">Git Hub</a></span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section" id="section2">
+            <div class="designlist">
+              <div class="designlist-box">
+                <img src="./img/img4.png" alt="">
+                <div class="box">
+                  <h2 class="box-title">DUKE</h2>
+                 <p class="box-text">상세페이지
+                  <br>
+                  참여율 100%
+                 </p>
+                 <a href="./pdf/furniture.pdf" target="_blank">view site</a>
+                </div>
+              </div>
+              <div class="designlist-box">
+                <img src="./img/img5.png" alt="">
+                <div class="box">
+                 <h2 class="box-title">오리 가슴살 말이 <br>우유스틱</h2>
+                 <p class="box-text">상세페이지
+                  <br>
+                  참여율 100%
+                 </p>
+                 <a href="./pdf/Milk gum stick.pdf" target="_blank">view site</a>
+                </div>
+              </div>
+              <div class="designlist-box">
+                <img src="./img/img6.png" alt="">
+                <div class="box">
+                 <h2 class="box-title">과일청</h2>
+                 <p class="box-text">상세페이지
+                  <br>
+                  참여율 100%
+                 </p>
+                 <a href="./pdf/Fruit syrup.pdf" target="_blank">view site</a>
+                </div>
+              </div>
+
+              <div class="designlist-box">
+                <img src="./img/img7.png" alt="">
+                <div class="box">
+                 <h2 class="box-title">megastudy</h2>
+                 <p class="box-text">팀프로젝트 모바일 리디자인
+                  <br>
+                  참여율 100%
+                 </p>
+                 <a href="./pdf/megastudy.pdf" target="_blank">view site</a>
+                </div>
+              </div>
+
+        </div>
+    </div>
+    <div class="section" id="section3">
+
+          <div class="designlist">
+            <div class="designlist-box">
+              <img src="./img/img8.png" alt="">
+              <div class="box">
+                <h2 class="box-title">미니고래 <br>천</h2>
+               <p class="box-text">상세페이지
+                <br>
+                참여율 100%
+               </p>
+               <a href="./pdf/Cheon.pdf" target="_blank">view site</a>
+              </div>
+            </div>
+            <div class="designlist-box">
+              <img src="./img/img11.png" alt="">
+              <div class="box">
+               <h2 class="box-title">데님 <br>롱 원피스</h2>
+               <p class="box-text">상세페이지
+                <br>
+                참여율 100%
+               </p>
+               <a href="./pdf/Clothes.pdf" target="_blank">view site</a>
+              </div>
+            </div>
+            <div class="designlist-box">
+              <img src="./img/img9.png" alt="">
+              <div class="box">
+               <h2 class="box-title">마카롱</h2>
+               <p class="box-text">SNS 카드
+                <br>
+                참여율 100%
+               </p>
+               <a href="./img/Macaron card.png" target="_blank">view site</a>
+              </div>
+            </div>
+
+            <div class="designlist-box">
+              <img src="./img/img10.png" alt="">
+              <div class="box">
+               <h2 class="box-title">초계한우 <br>선물세트</h2>
+               <p class="box-text">SNS 카드
+                <br>
+                참여율 100%
+               </p>
+               <a href="./img/Korean beef card.png" target="_blank">view site</a>
+              </div>
+            </div>
+
+      </div>
+      </div>
+      <div class="section" id="section4">
+
+            <div class="designlist">
+              <div class="designlist-box">
+                <img src="./img/img12.png" alt="">
+                <div class="box">
+                  <h2 class="box-title">코어랩이엔씨 <br>사이트</h2>
+                 <p class="box-text">랜딩페이지
+                  <br>
+                  참여율 100%
+                 </p>
+                 <a href="./pdf/CORELAB E&C.pdf" target="_blank">view site</a>
+                </div>
+        </div>
+        </div>
+</div>
+  </body>
+</html>
